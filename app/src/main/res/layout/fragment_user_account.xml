@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_account_fragment"
+    tools:context="com.example.sahil.peoplepanorbit.UserAccount">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:paddingTop="10dp"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/panorbiy"
+        app:border_width="1dp"
+        app:border_color="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="10"
+        android:layout_alignBottom="@+id/profile_image"
+        android:layout_alignStart="@+id/edit_name"
+        android:id="@+id/edit_age" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/edit_name"
+        android:layout_alignBaseline="@+id/user_name"
+        android:layout_alignBottom="@+id/user_name"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_marginTop="165dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <View
+
+        android:layout_below="@+id/add_medicine"
+        android:id="@+id/view_2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="17sp"
+        android:text="SOS Setting"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/view_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/sos_settings" />
+
+    <View
+
+        android:layout_below="@+id/sos_settings"
+        android:id="@+id/view_3"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Age:  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_age"
+        android:layout_alignBaseline="@+id/edit_age"
+        android:layout_alignBottom="@+id/edit_age"
+        android:layout_alignStart="@+id/user_name" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Name:  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:layout_alignTop="@+id/profile_image"
+        android:layout_toStartOf="@+id/edit_name"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_marginTop="28dp"
+        android:textSize="17sp"
+        android:text="Add Medicine"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:id="@+id/add_medicine"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/view_1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

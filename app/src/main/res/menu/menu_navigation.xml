@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/medicine"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        android:title="@string/text_medicine"
+         />
+
+    <item
+        android:id="@+id/medicinelist"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/text_m_list"
+         />
+
+    <item
+        android:id="@+id/useraccount"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="@string/text_user"
+         />
+
+</menu>

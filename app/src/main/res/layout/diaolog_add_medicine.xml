@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Medicine Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/medicine_details" />
+
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Medicine Name"
+        android:ems="10"
+        android:id="@+id/medicine_name" />
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Dose Frequency (daily/week)"
+        android:ems="10"
+        android:id="@+id/dose_frequency" />
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Quantity(of medicine at a time)"
+        android:ems="10"
+        android:id="@+id/quantity" />
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Number of Dose Per Day"
+        android:ems="10"
+        android:id="@+id/dose_per_day" />
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Number of Medicine Purchased"
+        android:ems="10"
+        android:id="@+id/purchase_medicine" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/save"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Save"
+        android:layout_marginTop="18dp"
+        android:layout_width="240dp"
+        android:layout_height="45dp" />
+</LinearLayout>

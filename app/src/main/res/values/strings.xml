@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">People PanOrbit</string>
+
+    <string name="text_medicine">Medicine</string>
+    <string name="text_m_list">Medicine List</string>
+    <string name="text_user">User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
